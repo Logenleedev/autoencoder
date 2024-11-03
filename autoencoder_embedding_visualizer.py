@@ -20,9 +20,9 @@ from sklearn.manifold import TSNE
 
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 #data folder with images to use for display
-DATA_FOLDER = os.path.join(THIS_FOLDER, 'data/modigliani_128')
+DATA_FOLDER = os.path.join(THIS_FOLDER, '/Users/mac/Desktop/School/Harvard/08_autoencoder_scripts/data/cloth_together')
 #folder with the trained model
-MODEL_FOLDER = "/Users/mac/Desktop/School/Harvard/08_autoencoder_scripts/model"
+MODEL_FOLDER = "/Users/mac/Desktop/School/Harvard/08_autoencoder_scripts/model/VGG16Autoencoder_latent_120"
 
 #parameters for the display of the images' thumbnails
 THUMBNAIL_OPACITY = 0.8

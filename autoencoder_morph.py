@@ -15,14 +15,14 @@ import cv2
 
 THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
 #folder to save the morphed images
-OUTPUT_FOLDER = os.path.join(THIS_FOLDER , 'images/variational_modigliani_128_morphed/')
+OUTPUT_FOLDER = os.path.join(THIS_FOLDER , '/Users/mac/Desktop/School/Harvard/08_autoencoder_scripts/')
 
 #folder with the trained model
-MODEL_FOLDER = "/Users/mac/Desktop/School/Harvard/08_autoencoder_scripts/model"
+MODEL_FOLDER = "/Users/mac/Desktop/School/Harvard/08_autoencoder_scripts/model//Users/mac/Desktop/School/Harvard/08_autoencoder_scripts/model/VariationalAutoencoder_latent_120"
 
 #images to morph
-IMAGE_A = r'data/modigliani_128/amedeo-modigliani_a-woman-with-velvet-ribbon.jpg'
-IMAGE_B = r'data/modigliani_128/amedeo-modigliani_young-woman-1910.jpg'
+IMAGE_A = r'/Users/mac/Desktop/School/Harvard/08_autoencoder_scripts/data/leaf/10098.jpg'
+IMAGE_B = r'/Users/mac/Desktop/School/Harvard/08_autoencoder_scripts/data/leaf/10099.jpg'
 
 #number of steps in the morphing process
 STEPS = 10
